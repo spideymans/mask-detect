@@ -4,8 +4,6 @@
 
 The trained model is contained in `mask-detect/trained_model/saved model/`. **Do not modify any of the files in this directory**. These are the files used to define our ML model.
 
-The `mask-detect/trained_model/content/` directory is intentionally empty. **Place any images you want to run through the model inside of this directory**. This directory must only include image fles, otherwise it will crash. Please ensure that all images are `PNG` or `JPG` files. Please do not commit any files you add to this directory.
-
 ### Dependancies
 
 To run the code, you need **tensorflow** and **numpy** installed.
@@ -24,7 +22,7 @@ The command below willl installl numpy. For more installation instructions: http
 
 ### Running the trained model
 
-Ensure that ``mask-detect/trained_model/content/` contains either `PNG` or `JPG` image to test against the ML model. You can find some sample files to use in the shared Capstone Google Drive: `capstone/images/test_run_images`
+Ensure that ``mask-detect/trained_model/test_files/` contains either `PNG` or `JPG` images. The ML model will test the images in this directory. You can find some sample files to use in the shared Capstone Google Drive: `capstone/images/test_run_images`
 
 To run the trained model, run the `mask-detect/trained_model/model_run.py` file. You may need to use either `python mask-detect/trained_model/model_run.py` or `python3 mask-detect/trained_model/model_run.py`, depending on the python version
 
