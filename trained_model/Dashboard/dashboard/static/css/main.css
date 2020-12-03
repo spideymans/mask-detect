@@ -1,0 +1,43 @@
+html {
+    background: #6c757d;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+}
+
+.alert-heading {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.alert-text {
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.image-view {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+
+.image-view img {
+    width: 100%;
+    height: 100%;
+}
+
+.browse-image {
+    display: inline-block;
+    width: 40%;
+    margin-right: 4%;
+}
+
+.normal {
+    color: #ffffff;
+}
+
+.warning {
+    color: #860000;
+}
