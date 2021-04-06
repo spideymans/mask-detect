@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Dashboard
+    </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-section">
+        <h1>Dashboard</h1>
+      </div>
+    </header>
+    <main class="main-section">
+      <div class="main-container">
+        <div class="alert-section">
+          <div class="alert-data">
+            <h2>Alerts:</h2>
+            <p id="mask-alert-text">No mask alert</p>
+            <p id="occupancy-alert-text">No occupancy alert</p>
+          </div>  
+          <div class="alert-button">
+            <button id="btn-clear" onclick="clearAlerts();">Clear Alerts</button>
+          </div>
+        </div>
+        <div class="info-section">
+          <h2>Room Information:</h2><br/>
+          <p>Room ID: <span id="room-id">1</span></p>
+          <p>Maximum occupancy limit: <span id="room-max-occupancy">10</span></p>
+          <p>Current occupancy count: <span id="room-current-occupancy">0</span></p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-section">
+      <div>Last checked: <span id="footer-text"></span></div>
+    </footer>
+  </body>
+</html>
